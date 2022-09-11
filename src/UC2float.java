@@ -1,9 +1,10 @@
-class UC2FLOAT<T> {
+
+public class UC2_float<T> {
     T num1;
     T num2;
     T num3;
 
-    public Generics() {
+    public UC2_float(T num1, T num2, T num3) {
         this.num1 = num1;
         this.num2 = num2;
         this.num3 = num3;
@@ -20,10 +21,10 @@ class UC2FLOAT<T> {
         }
     }
 }
-public class UC1{
+class UC2{
     public static void main(String[] args) {
 
-        Generics<Integer> obj = new Generics<>();
-        obj.calculateMax(5,8,3);
+        Generics<Float> obj = new Generics<>();
+        obj.calculateMax(26.3,44.5,55.6);
     }
 }
