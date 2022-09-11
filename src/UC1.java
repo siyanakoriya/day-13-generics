@@ -1,3 +1,5 @@
+
+
 class Generics <T> {
     T num1;
     T num2;
